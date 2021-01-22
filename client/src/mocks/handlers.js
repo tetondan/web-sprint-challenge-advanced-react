@@ -38,8 +38,8 @@ export const handlers = [
   rest.get('http://localhost:3333/plants', (req, res, ctx) => {
     console.log('response: ', { plantsData })
       return res(
-        ctx.status(200),
-        ctx.json(plantsData),
+        ctx.status(200), 
+        ctx.json(plantsData)
       )
   }),
 ]

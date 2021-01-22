@@ -19,4 +19,4 @@ server.listen(port, (err) => {
   console.log(`server is listening on port ${port}`);
 });
 
-const thing = "something eslse again";
+const thing = "something";
